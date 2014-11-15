@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/classes-2797d0f06c4beae333ab9bd6fd36144fc18f6e76.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/classes-4857a85dc52b754234ec2309e077a15748652e29.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/gson-2.2.4-2d3f6bc64928efa0d86efa554ab108e10af04dfb.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/gson-2.2.4-javadoc-3d077daff1aeba28fd67488e228b5e605fe2ac0d.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/libs/gson-2.2.4-javadoc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="be47c2ee6e9ab0668874e4c6c4933c0637f473d8"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-81c27c6d651ad33d4af15d81e846eaae3f2cef9f.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/build/intermediates/pre-dexed/debug/gson-2.2.4-sources-cacab01f3c23c540b2cb7ad795322ca229560d82.jar"
+        jar="/Users/jingfanmei/AndroidStudioProjects/WeatherSocial/app/libs/gson-2.2.4-sources.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="10ab84ba225b583b10713f57c04270c918ef162b"/>
+
+</pre-dex-items>

@@ -1,0 +1,295 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="edu.depaul.csc472.weathersocial.SignUpPage">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:stretchColumns="1">
+            <TableRow>
+                <TextView
+                    android:text="@string/headerForm"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_span="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/addImageIns"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_span="3"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/addImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/addimage"
+                    android:layout_span="3"
+                    android:layout_gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/emailIns"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_span="3"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/email"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/password"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/nickname"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/Nick_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nickIns"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/p_infor_header"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:layout_span="3"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/firstname"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/F_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/lastname"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/L_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/address"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:id="@+id/ADDRESS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/city"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:gravity="left"
+                    />
+
+                <EditText
+                    android:id="@+id/City"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_column="0"
+                    android:gravity="left"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/state"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:gravity="left"
+                    />
+
+                <Spinner
+                    android:id="@+id/State"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/zipcode"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:gravity="left"
+                    />
+
+                <EditText
+                    android:id="@+id/ZIP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:layout_column="1"
+                    android:gravity="left"
+                    />
+            </TableRow>
+
+            <Button
+                android:id="@+id/SubmitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_gravity="center"
+                />
+            <Button
+                android:id="@+id/CancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                />
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
+

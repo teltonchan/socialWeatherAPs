@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherSocial</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- For weather_social.xml -->
+    <string name="title_activity_sign_up_page">SignUpPage</string>
+    <string name="forget">Forget Password</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="clear">Clear</string>
+    <string name="login">Login</string>
+
+    <!-- For sign_up_page.xml -->
+    <string name="addImageIns">Please press an image below to add your profile image.</string>
+    <string name="emailIns">Fill your email as username and create a password.</string>
+    <string name="headerForm">Weather Social Sign-up Form</string>
+    <string name="title_activity_forget_page">ForgetPage</string>
+    <string name="p_infor_header">Personal Information</string>
+    <string name="nickIns">Your social network name</string>
+    <string name="firstname">First Name:</string>
+    <string name="address">Address Line:</string>
+    <string name="lastname">Last Name:</string>
+    <string name="nickname">Nickname:</string>
+    <string name="zipcode">ZIP: </string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email:</string>
+    <string name="state">State</string>
+    <string name="city">City:</string>
+
+    <!-- For forget_page.xml -->
+    <string name="forgetSug">Your password will be sent to your email that you fill out.</string>
+    <string name="forgetIns">Please fill your email address.</string>
+    <string name="forgetTitle"> Forget Password Page</string>
+    <string name="type_email">Type your email here.</string>
+    <string name="title_activity_weather_status">WeatherStatus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_five_day_forecast">FiveDayForecast</string>
+
+    <!-- For weather_status -->
+    <string name="social">Social Page</string>
+    <string name="logout">Logout</string>
+    <string name="minmax">Min/Max</string>
+    <string name="title_activity_social_page">SocialPage</string>
+    <string name="location">My Location</string>
+
+</resources>
