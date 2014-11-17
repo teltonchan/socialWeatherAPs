@@ -4,22 +4,23 @@
     <string name="app_name">WeatherSocial</string>
     <string name="action_settings">Settings</string>
 
-    <!-- For weather_social.xml -->
+    <!-- For login_page.xml -->
     <string name="title_activity_sign_up_page">SignUpPage</string>
     <string name="forget">Forget Password</string>
-    <string name="username">Username:</string>
     <string name="password">Password:</string>
     <string name="sign_up">Sign Up</string>
     <string name="clear">Clear</string>
     <string name="login">Login</string>
 
     <!-- For sign_up_page.xml -->
+    <string name="quesIns">Please fill your answers in the following questions. These questions and answers will be used to retrieve your password if you forget it.</string>
     <string name="addImageIns">Please press an image below to add your profile image.</string>
     <string name="emailIns">Fill your email as username and create a password.</string>
     <string name="headerForm">Weather Social Sign-up Form</string>
     <string name="title_activity_forget_page">ForgetPage</string>
     <string name="p_infor_header">Personal Information</string>
     <string name="nickIns">Your social network name</string>
+    <string name="question">Security Question</string>
     <string name="firstname">First Name:</string>
     <string name="address">Address Line:</string>
     <string name="lastname">Last Name:</string>
@@ -30,6 +31,11 @@
     <string name="email">Email:</string>
     <string name="state">State</string>
     <string name="city">City:</string>
+    <string name="Q1">What is your favorite food?</string>
+    <string name="Q2">What is your pet name?</string>
+    <string name="Q3">What is your close friend?</string>
+
+
 
     <!-- For forget_page.xml -->
     <string name="forgetSug">Your password will be sent to your email that you fill out.</string>
@@ -40,11 +46,22 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_five_day_forecast">FiveDayForecast</string>
 
-    <!-- For weather_status -->
+    <!-- For weather_status.xml -->
     <string name="social">Social Page</string>
     <string name="logout">Logout</string>
     <string name="minmax">Min/Max</string>
     <string name="title_activity_social_page">SocialPage</string>
     <string name="location">My Location</string>
+    <string name="title_activity_comment__layout">Comment_Layout</string>
+    <string name="title_activity_comment">Comment</string>
+
+    <!-- For social_page.xml -->
+    <string name="weather">Weather</string>
+    <string name="post">Post</string>
+
+    <!-- For textbox.xml -->
+    <string name="textHint">Type your message here</string>
+    <string name="send">Send</string>
+    <string name="title_activity_loading_page">LoadingPage</string>
 
 </resources>

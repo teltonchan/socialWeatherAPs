@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
-    tools:context="edu.depaul.csc472.weathersocial.SignUpPage">
+    android:background="@color/white"
+    tools:context="loginsystem.SignUpPage">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -49,6 +49,7 @@
                     android:src="@drawable/addimage"
                     android:layout_span="3"
                     android:layout_gravity="center"
+                    android:onClick="ProfileButton"
                     />
             </TableRow>
 
@@ -121,7 +122,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:hint="@string/nickIns"
-                    android:inputType="textPassword"
+                    android:inputType="text"
                     android:imeOptions="actionNext"
                     android:layout_span="2"
                     />
@@ -270,7 +271,106 @@
                     android:inputType="number"
                     android:imeOptions="actionDone"
                     android:layout_column="1"
+                    android:maxLength="5"
                     android:gravity="left"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/question"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:layout_span="3"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/quesIns"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_span="3"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/Q1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_span="3"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/ans1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/Q2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_span="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/ans2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/Q3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingLeft="10dp"
+                    android:layout_span="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/ans3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:layout_span="2"
                     />
             </TableRow>
 
@@ -280,12 +380,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/submit"
                 android:layout_gravity="center"
+                android:onClick="SubmitButton"
                 />
             <Button
                 android:id="@+id/CancelButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
+                android:onClick="CancelButton"
                 />
 
         </TableLayout>
