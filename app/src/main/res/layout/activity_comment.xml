@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="socialsystem.Comment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wallet_holo_blue_light">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/profile"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/posterDetail"
+                    android:text="Hello"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/comment"
+                    android:background="@color/white"
+                    android:text="Helloasd'fjad;skfj;lkadf;klajdf;klajsdf;jadsjfklasdjf;kajdsf;lajsdfl;kajdkls;fja;lkdsjfakl;sdnfmdvk;lansd"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
